@@ -39,7 +39,7 @@ pyrate-limiter
 Pillow
 psycopg2-binary
 pretty_errors
-pyrogram
+pyrogram==2.0.66
 pymongo
 requests
 regex

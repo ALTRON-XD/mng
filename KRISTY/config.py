@@ -12,9 +12,9 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
      
-    API_ID = 123456  # integer value, dont use "" this sign get it form my.telegram.org
-    API_HASH = "" # get it form my.telegram.org
-    TOKEN = ""  # get it form @botfather.
+    API_ID = 18776023  # integer value, dont use "" this sign get it form my.telegram.org
+    API_HASH = "f453f409460b31898c28852faba1f5dd" # get it form my.telegram.org
+    TOKEN = "5886222029:AAFTpr178HDO9oL6LabGJZm_rvDcVuM81ao"  # get it form @botfather.
     OWNER_ID = 1820525265  # got to @miss_kristy_bot and type /id
     OWNER_USERNAME = "I_AM_PRO_KING" # your telegram username
     ALLOW_CHATS = True # leave it as it is
@@ -31,18 +31,18 @@ class Config(object):
         -1001690301851
     )  # add @miss_kristy_bot in your group and type /id
     STRICT_GMUTE = True #to allow gmutes
-    START_STICKER = "" #sticker id for start animation
+    START_STICKER = "CAACAgUAAx0Ca_OVmgABAsMoZa0d_GlZqiDFyZFfHcWkpgJWicMAAlcGAAJYbAFXyUhS33gOxOg0BA" #sticker id for start animation
     TEMP_DOWNLOAD_DIRECTORY = ". /" # dont change
     OPENWEATHERMAP_ID = None
 
 
 
     # RECOMMENDED
-    STRING_SESSION ="" #telethon string session of user or bot get it from https://replit.com/@MISSKRISTY/MISS-KRISTY
-    MONGO_DB_URI = "" #get it from mongodb.com get
-    ARQ_API_KEY = "" #git it form @ARQRobot
+    STRING_SESSION ="1BVtsOIkBu4T7c09L3eHXtx4wD-kVOvZrnWxcUmrS07Thn3ckH4mfsh3L4MH-pPmB0pOjTT6FVRXTcihvovM-pU2O3-pDxRq6KVa788RMWRzmH8uwr3lQrg094nrcUpYBOXAUAaYvR6Jw6zNqfVpneAJ5MhCQSW2Y8cFPebionD5Vg2Rkwux94U99CdVeMPG9yKP6lceW2BoYMjQkEJHqekALTHSMT9LRu1b06cDBu4cEixPP0tCqZe1dNuJ7fzcrRPFa8E8mOjOYh4RlD6MzpOSFSShP3cQtft3mhW99DJdq-gYnIyLnoGBmbz-d5_DALHgfFx2CRU47QBu4nXQD-QPSHOPTxxY=" #telethon string session of user or bot get it from https://replit.com/@MISSKRISTY/MISS-KRISTY
+    MONGO_DB_URI = "mongodb+srv://alone:alone@cluster0.j4hrlec.mongodb.net/?retryWrites=true&w=majority" #get it from mongodb.com get
+    ARQ_API_KEY = "MNPBEM-ZJIACZ-KTXLFQ-IHJYFS-ARQ" #git it form @ARQRobot
     ARQ_API_URL = "https://arq.hamker.in" # dont change
-    SQLALCHEMY_DATABASE_URL = ""  # needed for any database modules get it from https://www.elephantsql.com/
+    SQLALCHEMY_DATABASE_URL = "postgres://xwufopfc:sfaUkM1By6c9t0UzbgcvGT9ugvTahysB@manny.db.elephantsql.com/xwufopfc"  # needed for any database modules get it from https://www.elephantsql.com/
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False

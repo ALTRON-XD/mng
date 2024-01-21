@@ -2,7 +2,7 @@ import requests
 from KRISTY.events import register
 from KRISTY import telethn as tbot
 
-@pbot.on_message(filters.command("boobz"))
+@tbot.on_message(filters.command("boobz"))
 async def boobs(client, message):
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
